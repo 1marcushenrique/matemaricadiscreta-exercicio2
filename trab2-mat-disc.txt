@@ -1,0 +1,75 @@
+a = ()
+b = ()
+print (conjunto)
+
+print(Inserção de Elementos)
+	Inserção(A, a)
+	print (A é um conjunto, a é um valor que será inserido em A)
+	
+
+a = [1, 2, 3, 4]
+b = [5, 4, 6, 7, 1, 2]
+
+def inserir(a, b):
+    if a not in b:
+        b.append(a)
+    return b
+
+print(pertinência de conjunto)
+	a = {1, 2, 3}
+	b = {3, 4, 5}
+	print(3 in c1)
+
+def pertinencia(a, b):
+    if a in b:
+        print("Pertence")
+    else:
+        print("Não Pertence")
+
+print(continência de conjunto)
+	a = {1, 2}
+	b = {1, 2}
+	print(a2.issubset(a))
+
+def continencia(a, b):
+    for i in a:
+        if i not in b:
+            print("Não contém")
+        else:
+            print("Contém")
+
+print(subconjunto de conjunto)
+	a1 = {1, 2, 3}
+	a2 = {1, 2}
+	print(ac2.issubset(a1))
+
+print(igualdade de conjunto)
+	a1 = {1, 2, 3}
+	a2 = {1, 2}
+	print(a1==a2)
+
+print(criando uma lista)
+	lista = [1, 2, 3]
+	print (lista)
+
+print(pertinência de lista)
+	numeros = ['1', '2']
+	print('2' in numeros)
+
+print(continência de lista)
+	a1 = [5, 6, 7]
+	a2 = [4, 5, 6, 7]
+	b1 = set(a1)
+	b2 = set(a2)
+	print(b1.issubset(b2))
+
+
+print(subconjunto de lista)
+	a1 = [5, 6, 7]
+	a2 = [5, 6, 7]
+	print(a1<=a2)
+
+print(igualdade de lista)
+	a1 = [5, 6, 7, 8]
+	a2 = [5, 6, 7, 8]
+	print(a1==a2)
